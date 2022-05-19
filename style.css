@@ -1,0 +1,173 @@
+body {
+    background-color: #523B35;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#pageBody{
+    background-color: #C19A6B;
+    border-radius: 25px;
+    width: 1385px;
+    height: 690px;
+    margin: 2em;
+}
+#lolokalLogo{
+    color:#523B35 ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 140px;
+    position: absolute;
+    font-weight: bold;
+    margin-left: 0.3em;
+    margin-top: 1em;
+}
+#lolokalLogo span{
+    color:#f5e2ce;
+}
+#tagline{
+    color:#523B35 ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    font-weight: bold;
+    margin-left: 1.7em;
+    margin-top: 9.3em;
+}
+#tagline span{
+    color:#f5e2ce ;
+}
+#loginMenu{
+    background-color: #f5e2ce;
+    border-radius: 25px;
+    width: 530px;
+    height: 350px;
+    margin-top: 5em;
+    margin-left: 50em;
+    position: absolute;
+}
+#loginHeader{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    font-size: 30px;
+    color:#523B35;
+    margin-left: 5%;
+}
+#email{
+    border-radius: 15px;
+    border: none;
+    position: absolute;
+    padding: 15px; 
+    width: 450px;
+    height: 20px;
+    margin-left:25px;
+    margin-top:80px;
+    background-color: #e9d7c4;    
+}
+#password{
+    border-radius: 15px;
+    border: none;
+    position: absolute;
+    padding: 15px; 
+    width: 450px;
+    height: 20px;
+    margin-left:25px;
+    margin-top:130px;
+    background-color: #e9d7c4;    
+}
+#loginBtn{
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0 3px #999;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    width: 480px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f5e2ce;
+    margin-left:25px;
+    margin-top:10em;
+    background-color: #523b35;    
+}
+#shopBtn{
+    border-radius: 20px;
+    padding: 15px;
+    display: inline-block;
+    box-shadow: 0 3px #999;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    width: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f5e2ce;
+    margin-left:3em;
+    margin-top:16.5em;
+    background-color: #523b35;    
+}
+#sellBtn{
+    border-radius: 20px;
+    padding: 15px;
+    display: inline-block;
+    box-shadow: 0 3px #999;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    width: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #523b35;
+    margin-left:10em;
+    margin-top:16.5em;
+    background-color: #f5e2ce;
+}
+#sellBtn:active{
+    background-color: #f5e2ce;
+    box-shadow: 0 0px #666;
+    transform: translateY(4px);
+}
+#shopBtn:active{
+    background-color: #523b35;
+    box-shadow: 0 0px #666;
+    transform: translateY(4px);
+}
+#loginBtn:active{
+    background-color: #523b35;
+    box-shadow: 0 0px #666;
+    transform: translateY(4px);
+}
+#forgotPass{
+    color:#523b35;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 260px;
+}
+#pageDiv{
+    color:#f5e2ce;
+    font-family: 'Poppins', sans-serif;
+    margin-top:20.5em;
+    margin-left:13em;
+}
+#signBtn{
+    border-radius: 25px;
+    padding: 25px;
+    display: inline-block;
+    box-shadow: 0 3px #999;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    width: 530px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #523b35;
+    margin-left:40em;
+    margin-top:24em;
+    background-color: #f5e2ce;
+}
+#signBtn:active{
+    background-color: #f5e2ce;
+    box-shadow: 0 0px #666;
+    transform: translateY(4px);
+}
