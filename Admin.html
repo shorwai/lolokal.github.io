@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/fcba06baee.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="adminStyle.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Poppins:wght@100;400;500;600;700&display=swap');
+        </style>
+        <script src="adminJS.js"></script>       
+    </head>
+
+    <body>
+        <div id ="logo">
+            <p id="lolokalLogo">LO<span>LOKAL</span></p>
+            <p id="adminPage">ADMIN<span> PAGE</span></p>
+        </div>
+        <div id="menu">
+            <div id = "menuBody"></div>
+            <div id = "menuHeader">
+                <div id =circle><i id="userprofile" class="fa-solid fa-user fa-2x"></i></div>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><div class="triangle-down"></div></button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#">Profile</a>
+                      <a href="#">Signout</a>
+                    </div>
+                </div>  
+                <p id="adminRole">Administrator</p>
+                <p id="adminName">Administrator</p>
+            </div>
+            
+        </div>
+        <div class = "menuBodyNav">
+            <a href="#">REPORTS</a>
+            <a href="#">USER MANAGEMENT</a>
+            <a href="#">ACTIVITY LOGS</a>
+        </div>
+    </body>
+</html>
